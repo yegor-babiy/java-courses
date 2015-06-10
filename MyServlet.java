@@ -3,7 +3,7 @@ import com.mysoft.Dao;
 import java.io.IOException;
 
 /**
- * Created by BABIY on 16.05.2015.
+ * Created by BABIY IGOR on 16.05.2015.
  */
 @javax.servlet.annotation.WebServlet(name = "MyServlet", urlPatterns = "/posts")
 public class MyServlet extends javax.servlet.http.HttpServlet {
