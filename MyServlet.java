@@ -14,6 +14,6 @@ public class MyServlet extends javax.servlet.http.HttpServlet {
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         request.setAttribute("posts", Dao.getPosts());
 
-        response.getOutputStream().write("From servlet page".getBytes());
+        response.getOutputStream().write("Message from servlet page".getBytes());
     }
 }
